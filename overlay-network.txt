@@ -1,0 +1,7 @@
+An overlay network allows network devices to communicate across an underlying network (referred to as the underlay) without the underlay network having any knowledge of the devices connected to the overlay network. 
+From the point of view of the devices connected to the overlay network, it looks just like a normal network. There are many different kinds of overlay networks that use different protocols to make this happen, but in general they share the same common characteristic of taking a network packet, referred to as the inner packet, and encapsulating it inside an outer network packet. In this way the underlay sees the outer packets without needing to understand how to handle the inner packets.
+
+
+
+
+How the overlay knows where to send packets varies by overlay type and the protocols they use. Similarly exactly how the packet is wrapped varies between different overlay types. In the case of VXLAN for example, the inner packet is wrapped and sent as UDP in the outer packet.
