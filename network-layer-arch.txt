@@ -18,3 +18,8 @@ The process of sending and receiving data over a network is commonly categorized
 
 
 
+In a modern enterprise or public cloud network, the layers commonly map as follows:
+L5-7: all the protocols most application developers are familiar with. e.g. HTTP, FTP, SSH, SSL, DNS.
+L4: TCP or UDP, including source and destination ports.
+L3: IP packets and IP routing.
+L2: Ethernet packets and Ethernet switching.
