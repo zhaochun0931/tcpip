@@ -8,3 +8,13 @@
 |--- 2.  Data link layer
 |--- 1.  Physical layer
 
+
+
+
+
+
+
+The process of sending and receiving data over a network is commonly categorized into 7 layers. The layers are typically abbreviated as L1 - L7. You can think of data as passing through each of these layers in turn as it is sent or received from an application, with each layer being responsible for a particular part of the processing required to send or receive the data over the network.
+
+
+
