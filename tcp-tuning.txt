@@ -1,0 +1,18 @@
+Common TCP/IP tuning techniques
+
+
+MTU
+|
+|
+|
+Fragmentation
+|
+|
+|
+The Don’t Fragment bit in an IP packet
+
+
+
+MTU
+The maximum transmission unit (MTU) is the largest size frame (packet), specified in bytes, that can be sent over a network interface. The MTU is a configurable setting. 
+The default setting on most network devices globally, is 1,500 bytes.
